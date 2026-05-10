@@ -1,5 +1,5 @@
 {
-  "name": "moshakgholdammoldm",
+  "name": "storm-gate-472b13",
   "build": {
     "dockerfile": "Dockerfile",
     "context": "."
@@ -15,7 +15,7 @@
   "postAttachCommand": "gh codespace ports visibility 443:public -c $CODESPACE_NAME && bash /usr/local/bin/start.sh",
   "portsAttributes": {
     "443": {
-      "label": "moshakgholdammoldm",
+      "label": "storm-gate-472b13",
       "protocol": "http",
       "onAutoForward": "silent"
     }
